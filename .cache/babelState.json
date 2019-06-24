@@ -1,7 +1,12 @@
 {
   "stages": {
     "develop": {
-      "plugins": [],
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        }
+      ],
       "presets": [
         {
           "name": "/Users/matthew/Documents/All-Projects/gatsby-frontEndMasters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
@@ -18,7 +23,12 @@
       }
     },
     "develop-html": {
-      "plugins": [],
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        }
+      ],
       "presets": [
         {
           "name": "/Users/matthew/Documents/All-Projects/gatsby-frontEndMasters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
@@ -35,7 +45,12 @@
       }
     },
     "build-html": {
-      "plugins": [],
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        }
+      ],
       "presets": [
         {
           "name": "/Users/matthew/Documents/All-Projects/gatsby-frontEndMasters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
@@ -52,7 +67,12 @@
       }
     },
     "build-javascript": {
-      "plugins": [],
+      "plugins": [
+        {
+          "name": "@babel/plugin-proposal-object-rest-spread",
+          "options": {}
+        }
+      ],
       "presets": [
         {
           "name": "/Users/matthew/Documents/All-Projects/gatsby-frontEndMasters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
