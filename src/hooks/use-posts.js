@@ -16,7 +16,12 @@ const usePosts = () => {
     }
   `);
 
-  return data.allMdx.nodes;
+  return data.allMdx.nodes.map(({ frontmatter, excerpt }) => ({
+    title: frontmatter.title,
+    author: frontmatter.author,
+    slug: frontmatter.slug,
+    excerpt: excerpt
+  }));
 };
 
 export default usePosts;
